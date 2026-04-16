@@ -38,7 +38,7 @@ Developed a full-stack event management platform enabling users to create and re
 
 ---
 ## 📁 Project Structure
-
+```bash
 EventHub/
 ├── backend/                                # Backend - Node.js + Express
 │   ├── models/                             # MongoDB schemas (Event, Registration)
