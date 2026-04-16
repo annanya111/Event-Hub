@@ -32,53 +32,62 @@ Event Hub is a full-stack event management system built using React, Node.js, an
 - Socket.io
 
 ---
+### 🏠 Dashboard
+![Dashboard](./assets/dashboard.png)
 
-## 📸 Screenshots
+### 🔐 Login / Signup
+![Login](./assets/login.png)
 
-![Dashboard](./assets/dashboard.png)  
-![Events](./assets/events.png)
+### 🧑‍💼 Organizer Panel
+![Organizer](./assets/organizer.png)
 
 ---
 
 ## 📦 Installation & Setup
 
 ### 1. Clone Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/vent-hub.git
-cd vent-hub
-```
+
+git clone https://github.com/annanya111/EventHub.git
+cd EventHub
 
 ---
 
 ### 2. Setup Backend
-```bash
+
 cd backend
 npm install
 node server.js
-```
 
 ---
 
 ### 3. Setup Frontend
-```bash
+
 cd frontend
 npm install
 npm run dev
-```
 
 ---
 
 ## 🌐 API Endpoints
 
-- `POST /events` → Create event  
-- `GET /events` → Get all events  
-- `POST /register/:id` → Register for event  
+### 📌 Event APIs
+- `POST /events` → Create a new event  
+- `GET /events` → Fetch all events  
 
----
+### 📌 Registration API
+- `POST /register/:id` → Register for an event  
+
+### 📝 Example Request
+
+POST /events
+{
+  "title": "Hackathon",
+  "capacity": 100
+}
 
 ## 🚀 Future Improvements
 
-- 🔐 Authentication (JWT)
+- 🔐 Proper Authentication using JWT
 - 🎟 Paid Events Integration
 - 📧 Email Notifications
 - 📱 QR Code Check-in System
