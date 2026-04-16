@@ -33,13 +33,14 @@ Event Hub is a full-stack event management system built using React, Node.js, an
 
 ---
 ### 🏠 Dashboard
-![Dashboard](./assets/dashboard.png)
+![Dashboard](./assets/Dashboard1.png)
+![Dashboard View 2](./assets/Dashboard2.png)
 
 ### 🔐 Login / Signup
-![Login](./assets/login.png)
+![Login](./assets/Login.png)
 
 ### 🧑‍💼 Organizer Panel
-![Organizer](./assets/organizer.png)
+![Organizer](./assets/Organizer.png)
 
 ---
 
