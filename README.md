@@ -1,6 +1,11 @@
-# Event-Hub - Event Management Dashboard
+## EventHub – Real-Time Event Management System  
 
-Event Hub is a full-stack event management system built using React, Node.js, and MongoDB. It allows users to explore events, register in real-time, and enables organizers to manage event capacity efficiently.
+Developed a full-stack event management platform enabling users to create and register for events with real-time updates.  
+
+• Implemented RESTful APIs using Node.js and Express  
+• Integrated MongoDB for efficient event and registration data management  
+• Built real-time registration tracking using Socket.io  
+• Designed responsive UI using React  
 
 ---
 
@@ -32,6 +37,27 @@ Event Hub is a full-stack event management system built using React, Node.js, an
 - Socket.io
 
 ---
+## Project Structure-
+EventHub/
+├── backend/                  # Backend - Node.js + Express
+│   ├── models/               # MongoDB schemas (Event, Registration)
+│   ├── server.js             # Server entry point
+│   ├── package.json
+│
+├── frontend/                 # Frontend - React (Vite)
+│   ├── src/
+│   │   ├── components/       # Reusable UI components (EventCard, Navbar)
+│   │   ├── App.jsx           # Main app component
+│   │   ├── main.jsx          # Entry point
+│   ├── index.html
+│   ├── package.json
+│
+├── assets/                   # Screenshots for README
+├── README.md                 # Project documentation
+├── .gitignore
+
+---
+
 ### 🏠 Dashboard
 ![Dashboard](./assets/Dashboard1.png)
 ![Dashboard View 2](./assets/Dashboard2.png)
