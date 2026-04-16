@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+
+# backend env / secrets
+backend/.env
+backend/.env.*
+
+# frontend build artifacts are handled by frontend/.gitignore
+
