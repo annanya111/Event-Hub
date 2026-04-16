@@ -37,24 +37,26 @@ Developed a full-stack event management platform enabling users to create and re
 - Socket.io
 
 ---
-## Project Structure-
+## 📁 Project Structure
+
 EventHub/
-├── backend/                  # Backend - Node.js + Express
-│   ├── models/               # MongoDB schemas (Event, Registration)
-│   ├── server.js             # Server entry point
+├── backend/                                # Backend - Node.js + Express
+│   ├── models/                             # MongoDB schemas (Event, Registration)
+│   ├── server.js                           # Server entry point
 │   ├── package.json
 │
-├── frontend/                 # Frontend - React (Vite)
+├── frontend/                                # Frontend - React (Vite)
 │   ├── src/
-│   │   ├── components/       # Reusable UI components (EventCard, Navbar)
-│   │   ├── App.jsx           # Main app component
-│   │   ├── main.jsx          # Entry point
+│   │   ├── components/                       # Reusable UI components (EventCard, Navbar)
+│   │   ├── App.jsx                            # Main app component
+│   │   ├── main.jsx                            # Entry point
 │   ├── index.html
 │   ├── package.json
 │
-├── assets/                   # Screenshots for README
-├── README.md                 # Project documentation
+├── assets/                                    # Screenshots for README
+├── README.md                                  # Project documentation
 ├── .gitignore
+```
 
 ---
 
